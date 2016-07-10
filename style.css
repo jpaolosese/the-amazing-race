@@ -1,3 +1,7 @@
 body {
-  background-color: rgba(127, 127, 127, 0.5);
+/*  background-image: url("old-world-map.jpg");*/
+}
+
+tr {
+  border: 1px solid #333;
 }
