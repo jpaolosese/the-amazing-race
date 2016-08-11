@@ -22,4 +22,12 @@ $(document).ready(function() {
     // count += 1;
     // $("td#a" + count).css("background-color", "#777777");
   });
+
+  // TODO: Add a win condition. Two possible approaches to check for a win:
+    // 1) On each keypress, check the last cell in each player's row to see if it has a color. When the color is either
+    //    #FFF000 for playerOne or #000FFF for playerTwo, notify the players of a win
+    // 2) When playerOneCount or playerTwoCount reaches the number of cells in the row
+    //    (which would mean that they player has reached the last cell), notify the players of a win
+
+  // TODO: Add a reset function!
 });
